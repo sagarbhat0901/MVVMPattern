@@ -8,13 +8,17 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.example.mvvmpattern.databinding.ActivityLoginBinding
+import com.example.mvvmpattern.view.AuthInterface
+import com.example.mvvmpattern.viewmodel.AuthViewModel
 
 
-class LoginActivity : AppCompatActivity(),AuthInterface {
+class LoginActivity : AppCompatActivity(), AuthInterface {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        var binding : ActivityLoginBinding = DataBindingUtil.setContentView(this,R.layout.activity_login)
+        var binding : ActivityLoginBinding = DataBindingUtil.setContentView(this,
+            R.layout.activity_login
+        )
         // Create ViewModelProvider instance
         val viewModelProvider = ViewModelProvider(this)
 

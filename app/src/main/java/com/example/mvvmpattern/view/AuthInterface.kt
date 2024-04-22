@@ -1,4 +1,4 @@
-package com.example.mvvmpattern
+package com.example.mvvmpattern.view
 
 import androidx.lifecycle.LiveData
 

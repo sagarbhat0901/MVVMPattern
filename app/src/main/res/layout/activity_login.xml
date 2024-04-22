@@ -7,7 +7,7 @@
     <data>
         <variable
             name="layout_viewmodel"
-            type="com.example.mvvmpattern.AuthViewModel" />
+            type="com.example.mvvmpattern.viewmodel.AuthViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

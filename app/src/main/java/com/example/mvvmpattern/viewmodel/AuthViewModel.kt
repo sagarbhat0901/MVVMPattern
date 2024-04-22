@@ -1,8 +1,10 @@
-package com.example.mvvmpattern
+package com.example.mvvmpattern.viewmodel
 
-import UserRepo
+import com.example.mvvmpattern.model.repository.UserRepo
 import android.view.View
 import androidx.lifecycle.ViewModel
+import com.example.mvvmpattern.view.AuthInterface
+import com.example.mvvmpattern.model.data.UserData
 
 
 class AuthViewModel : ViewModel() {
